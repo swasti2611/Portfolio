@@ -6,10 +6,8 @@ import Exeperience from './component/header/Exeperience/Exeperience';
 import Header from './component/header/Header';
 import Navbar from './component/nav/Navbar';
 import Project from './component/project/Project';
-import { CONTACT } from './constants';
 
 function App() {
-
 
 
 

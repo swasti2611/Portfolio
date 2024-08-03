@@ -22,7 +22,7 @@ function Project() {
                 {
                     PROJECTS.map((project, index) => {
                         return (
-                            <Card className='carts' >
+                            <Card className='carts ' key={index} >
                                 <Card.Img style={{borderRadius:"15px"}} variant="top" src={project.image} />
                                 <Card.Body className='cartbody'>
                                     <Card.Title >{project.title}</Card.Title>
