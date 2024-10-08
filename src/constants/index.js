@@ -1,8 +1,6 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
 
+ import zomatoImage from "../Assets/Zomato.png"
+import personalTraker from "../Assets/traker.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and javascript, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -41,51 +39,37 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/588/507/datas/original.PNG',
-    title: "Youtube Clone",
+    image: zomatoImage,
+    title: "Zomato clone",
     description:
-      "Developed a YouTube clone using HTML, CSS, and JavaScript, implementing features like video playback, search functionality, and user interactions",
-    technologies: ["HTML", "CSS", "javascript"],
-    url:"https://manishloginn.github.io/Youtube-clone/",
+      "Created a Zomato clone that allows users to search for restaurants, view menus, and place orders. Utilized React, Node, and MongoDB to build a seamless user experience.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node", "Express", "MongoDB"],
+    url: "https://snazzy-basbousa-a6645b.netlify.app/",
   },
-  {
-    image: "https://screenshots.codesandbox.io/6ccrm9/0.png",
-    title: "Blinkit-Clone",
-    description:
-      "Developed a Blinkit clone using React, focusing on product listing, search functionality, and shopping cart management.",
-    technologies: ["HTML", "CSS", "React", "Redux"],
-    url :"https://blinkit-full-stack.onrender.com/",
-  },
-  {
-    image:"https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/06/Portfolio-site-of-the-front-end-developer-Ian-Dunkerley-1024x481.webp",
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-    url : "google.com",
-  },
-  {
-    image : "https://media.gcflearnfree.org/content/55e073de7dd48174331f51b3_01_17_2014/getting_started_interactive2.png",
-    title: "Google Sheet",
-    description:
-      "Built an Excel sheet clone with HTML, CSS, and JavaScript, replicating core spreadsheet functionalities including cell selection, data entry, and formula calculations.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    url : "https://manishloginn.github.io/EXCEL-SPREADSHEET/"
 
-  },
   {
-    image:"https://repository-images.githubusercontent.com/407926849/1d9819d6-41ec-4e8b-82e6-f153f97f1a28",
+    image: personalTraker,
+    title: "Personal Finance Tracker",
+    description:
+      "Developed a Personal Finance Tracker that helps users manage their expenses and income. Integrated React and Firebase for real-time data synchronization and user authentication.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
+    url: "https://finance-tracker-five-tau.vercel.app/",
+  },
+
+  {
+    image: "https://repository-images.githubusercontent.com/407926849/1d9819d6-41ec-4e8b-82e6-f153f97f1a28",
     title: "Quiz Game",
     description:
-      "Developed an interactive quiz website using HTML, CSS, and JavaScript, which allows users to test their knowledge on various topics through multiple-choice questions",
-    technologies: ["HTML", "CSS", "Javascript"],
-    url : "https://manishloginn.github.io/F2_CONTEST3/",
+      "Built an interactive Quiz Game that challenges users with multiple-choice questions across various topics. Utilized HTML, CSS, and JavaScript for an engaging user interface.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://quiz-app-3ewa.vercel.app/",
   },
 ];
 
+
 export const CONTACT = {
-  name: "Manish Verma",
-  address: "New Delhi, India, 110062 ",
-  phoneNo: "+91 7053 468 609 ",
-  email: "manishv7714@gmail.com",
+  name: "Swati Jagtap",
+  address: "Nashik Maharastra ",
+  phoneNo: "+91 8317 203 481 ",
+  email: "swatijagtap904@gmail.com",
 };

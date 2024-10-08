@@ -12,14 +12,14 @@ function Contact() {
         <div className='contactunder'>
           <HiOutlineMail className='icon' />
           <h4>Email</h4>
-          <h5>manishv7714@gmail.com</h5>
+          <h5>swatijagtap904@gmail.com</h5>
           <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=new">Email me!</a>
         </div>
         <div className='contactunder'>
           <BsLinkedin className='icon' />
           <h4>LinkedIn</h4>
-          <h5>Manish Verma</h5>
-          <a href="https://www.linkedin.com/in/manish-verma-b8a036219/">Connect with me!</a>
+          <h5>Swati Jagtap</h5>
+          <a href="https://www.linkedin.com/in/swatijagtap/">Connect with me!</a>
         </div>  
       </div>
     </section>

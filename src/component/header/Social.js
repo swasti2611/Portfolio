@@ -5,8 +5,8 @@ import "./action.css"
 function Social() {
   return (
     <div className='header__socials'>
-      <a href='https://www.linkedin.com/in/manish-verma-b8a036219/' target='_blank'> <BsLinkedin /> </a>
-      <a href='https://github.com/manishloginn?tab=repositories' target='_blank'> <BsGithub /> </a>
+      <a href='https://www.linkedin.com/in/swatijagtap/' target='_blank'> <BsLinkedin /> </a>
+      <a href='https://github.com/swasti2611' target='_blank'> <BsGithub /> </a>
     </div>
   )
 }

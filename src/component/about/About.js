@@ -1,5 +1,5 @@
 import React from 'react'
-import MyPhoto from "../../Assets/image.png"
+import MyPhoto from "../../Assets/image-1.png"
 import "./about.css"
 import { BiFolder, BiMedal, BiUser } from 'react-icons/bi'
 

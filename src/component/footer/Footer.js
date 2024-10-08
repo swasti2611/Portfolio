@@ -5,7 +5,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <a className='decoration footer__logo' href="#contact">Manish Verma</a>
+      <a className='decoration footer__logo' href="#contact">Swati Jagtap</a>
 
       <ul className="permalinks">
         <li><a className='decoration' href="#">Home</a></li>
@@ -15,9 +15,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__copyright">
-        <small>&copy; Manish Verma. All rights reserved.</small>
+        <small>&copy; Swati Jagtap. All rights reserved.</small>
         <br />
-        <small><BsFillTelephoneFill /> +917053468609</small>
+        <small><BsFillTelephoneFill /> +918317203481</small>
       </div>
     </footer>
   );
